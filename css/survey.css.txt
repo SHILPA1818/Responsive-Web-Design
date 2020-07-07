@@ -1,0 +1,64 @@
+body{
+  text-align:center;
+  font-family:sans-serif;
+  background-image:linear-gradient(to bottom right, #00aeff , #7310e6);
+  color:white;
+
+  #title{
+  font-size:45px;
+}
+  #description{
+  font-size:20px;
+}
+  
+  #body{
+  width:500px;
+  padding:40px;
+  margin:auto;
+  border-radius:20px;
+  text-align:left;
+  background-color:rgba(0,0,0,0.6);
+  font-size:30px;
+  color:white;
+  
+}
+
+#name{
+  width:500px;
+  padding:25px;
+  border-radius:20px;
+}
+#email{
+  width:500px;
+  padding:25px;
+  border-radius:20px;
+}
+#number{
+  width:500px;
+  padding:25px;
+  border-radius:20px;
+}
+#dropdown{
+  width:500px;
+  padding:25px;
+  border-radius:20px;
+}
+#comment{
+  width:500px;
+  padding:20px;
+  border-radius:20px;
+  border:none;
+  
+}
+#submit{
+  width:300px;
+  padding:30px;
+  font-size:30px;
+  border-radius:20px;
+  border:none;
+  margin-top:5%;
+  color:white;
+  background-color:green;
+  
+}
+

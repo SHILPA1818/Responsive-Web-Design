@@ -1,0 +1,132 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<div class='main-body'>
+
+  <nav id="navbar">
+    <header>
+      JS Documentation
+    </header>
+    <a href="#Introduction" class="nav-link">Introduction</a>
+    <a href="#Constants" class="nav-link">Constants</a>
+    <a href="#Variables" class="nav-link">Variables</a>
+    <a href="#Arrays" class="nav-link">Arrays</a>
+    <a href="#Functions" class="nav-link">Functions</a>
+    <a href="#Operators" class="nav-link">Operators</a>
+  </nav>
+  
+   <main id="main-doc">
+    <section class="main-section" id='Introduction'>
+      <header>
+        Introduction
+      </header>
+      <p>C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely used among modern software programmers.</p>
+      
+      <p>Why to Learn C Programming?
+C programming language is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Software Development Domain.I will list down some of the key advantages of learning C Programming:
+
+
+      <ol>
+        <li>Easy to learn</li>
+        <li>Structured Language</li>
+        <li>Produces efficient programs</li>
+      </ol>
+      </p>
+      
+     </section>
+     <section class="main-section" id='Constants'>
+       <header>Constants</header>
+       <p>Constants refer to fixed values that the program may not alter during its execution. These fixed values are also called literals.</p>
+
+<p>Constants can be of any of the basic data types like an integer constant, a floating constant, a character constant, or a string literal. There are enumeration constants as well.</p>
+
+<p>Constants are treated just like regular variables except that their values cannot be modified after their definition.</p>
+       <p>An integer literal can also have a suffix that is a combination of U and L, for unsigned and long, respectively. The suffix can be uppercase or lowercase and can be in any order.</p>
+       <p>V</p>
+       <ul>
+         <li>212         /* Legal */</li>
+         <li>215u        /* Legal */</li>
+        <li> 0xFeeL      /* Legal */</li>
+      <li> 078         /* Illegal: 8 is not an octal digit */</li>
+ <li> 032UU       /* Illegal: cannot repeat a suffix */</li>
+       </ul>
+
+         <p>Here are some examples of integer literals −</p>
+       <code>212         /* Legal */
+215u        /* Legal */
+0xFeeL      /* Legal */
+078         /* Illegal: 8 is not an octal digit */
+         032UU       /* Illegal: cannot repeat a suffix */</code>
+  </section>
+  <section class="main-section" id='Variables'>
+    <header>
+      Variables</header>
+    <p>A variable is nothing but a name given to a storage area that our programs can manipulate. Each variable in C has a specific type, which determines the size and layout of the variable's memory; the range of values that can be stored within that memory; and the set of operations that can be applied to the variable.</p>
+    <p>The name of a variable can be composed of letters, digits, and the underscore character.</p> <p>It must begin with either a letter or an underscore. Upper and lowercase letters are distinct because C is case-sensitive. Based on the basic types explained in the previous chapter, there will be the following basic variable types −</p>
+    <code>
+char:
+
+Typically a single octet(one byte). It is an integer type.
+
+
+int:
+
+The most natural size of integer for the machine.
+
+	
+float:
+
+A single-precision floating point value.
+
+
+double:
+
+A double-precision floating point value.
+
+void:
+
+      Represents the absence of type.</code>
+       
+  </section>
+  <section class="main-section" id='Arrays'>
+    <header>Arrays</header>
+    <p>Arrays a kind of data structure that can store a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.</p>
+    <p>A function definition in C programming consists of a function header and a function body. Here are all the parts of a function −</p>
+    <ul>
+      <li>Return Type</li>
+      </li>  Function Name</li>
+  </li> Parameter</li>
+</li> Function Body</li>
+</ul>
+        
+      
+    <p>Instead of declaring individual variables, such as number0, number1, ..., and number99, you declare one array variable such as numbers and use numbers[0], numbers[1], and ..., numbers[99] to represent individual variables. A specific element in an array is accessed by an index.</p>
+    <h3>Declaring Array</h3>
+    <code>type arrayName [ arraySize ];</code>
+    <h3>Initaializing</code>
+      <code>double balance[5] = {1000.0, 2.0, 3.4, 7.0, 50.0};</code>
+  </section>
+  <section class="main-section" id='Functions'>
+    <header>Functions</header>
+    <p>A function is a group of statements that together perform a task. Every C program has at least one function, which is main(), and all the most trivial programs can define additional functions.</p>
+    <p>You can divide up your code into separate functions. How you divide up your code among different functions is up to you, but logically the division is such that each function performs a specific task.</P>
+<ul>
+  
+  <p>The C standard library provides numerous built-in functions that your program can call. For example, strcat() to concatenate two strings, memcpy() to copy one memory location to another location, and many more functions.</p>
+  <code>return_type function_name( parameter list ) {
+   body of the function
+    }</code>
+  </section>
+<section class="main-section" id='Operators'>
+  <header>Operators</header>
+  <p>An operator is a symbol that tells the compiler to perform specific mathematical or logical functions. C language is rich in built-in operators and provides the following types of operators −</p>
+  <ul>
+    <li>Arithmetic</li>
+    <li>Relational</li>
+    <li>Logical</li>
+    <li>Assignment</li>
+    <li>Bitwise</li>
+  </ul>
+
+</section>
+
+</main>

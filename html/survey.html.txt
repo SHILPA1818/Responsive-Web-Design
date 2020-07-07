@@ -1,0 +1,55 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title">Survey Form</h1>
+
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<div id="body">
+
+
+<form id="survey-form">
+  <label id="name-label" for="name">
+  <p>Name:</p>
+     </label>
+  <input id="name"type="text" placeholder="Enter your name" required>
+  
+  
+    <label id="email-label" for="email">
+  <p>Email:</p>
+  </label>
+  
+  <input id="email" type="email" placeholder="Enter Your Email" required>
+    
+ <label id="number-label" for="number">
+  <p>Age:</p>
+</label>
+<input id="number"  type="number" placeholder="Enter Your Age" min="12" max="50" required>                                                       
+  <p>What made you think that the training was a good session</p>
+  <select id="dropdown">
+    <option value="default">Nothing</option>
+    <optio value="Trainer was good">Trainer was good</option>
+    <option value="Syllabus covered was good">Syllabus covered was good</option>
+    <option value="Timings of the session was good">Timings of the session was good</option>
+  </select>
+  <p>Which course content did you like the most</p>
+  <input type="radio" name="courses" value="1">C Language</input>
+<br>
+ <input type="radio" name="courses" value="2">Java</input>
+<br>
+<input type="radio" name="courses" value="3">Python</input>
+<br>
+<input type="radio" name="courses" value="4">        Ruby</input>
+
+<p>Which of the other courses do you like</p>
+<input type="checkbox" name="language" value="1">Pearl</input>
+<br>
+<input type="checkbox" name="language" value="2">Unix</input>
+<br>
+<input type="checkbox" name="language" value="3">Data Structure</input>
+<br>
+
+<textarea id="comment" rows="4" cols="40">Add Your Comment Here</textarea>
+<br>
+<input id="submit" type="submit" value="Submit">
+            
+</form>
+</div>

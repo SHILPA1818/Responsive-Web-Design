@@ -1,0 +1,42 @@
+
+.nav-link{
+  color:black;
+  text-decoration:none;
+  text-align:center;
+  font-size:18px;
+  padding:14px 50px;
+  float:left;
+  transition:background .5s ease;
+}
+
+
+#nav{
+  width:100%;
+}
+.sign-up{
+  height:500px;
+}
+.sign{
+  text-align:center;
+}
+
+#video-frame{
+  height:500px;
+ text-align:center; 
+  
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+#form{
+  text-align:center;
+}
+p{
+  text-align:center;
+}
+  #nav-bar {
+    display: flex;
+    height: 80px;
+}
